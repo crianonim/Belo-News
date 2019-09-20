@@ -12,7 +12,9 @@ module.exports = {
       html: "text/html",
       css: "text/css",
       js: "application/javascript",
-      ico: "image/x-icon"
+      ico: "image/x-icon",
+      svg: "image/svg+xml",
+
     };
     const filePath = path.join(__dirname, "..", req.url);
     fs.readFile(filePath, (error, file) => {
