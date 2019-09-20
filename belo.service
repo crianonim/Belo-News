@@ -1,0 +1,14 @@
+[Unit]
+Description=Belo News express app
+After=network.target
+
+[Service]
+User=criamon
+WorkingDirectory=/home/criamon/share/belo
+Restart=always
+RestartSec=10
+ExecStart=/usr/bin/npm start 
+StandardOutput=syslog
+StandardError=syslog
+[Install]
+WantedBy=default.target
