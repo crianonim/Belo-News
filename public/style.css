@@ -4,7 +4,12 @@ body {
   padding: 0;
   font-family: "Open Sans", serif;
 }
-
+.svg {
+  height: 1rem;
+}
+h1 {
+  font-family: serif;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -17,6 +22,7 @@ input {
   border: none;
   padding: 0.2rem 1rem;
   background-color: #e0bfda;
+  cursor: pointer;
 }
 
 .banner {
